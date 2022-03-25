@@ -22,12 +22,3 @@ while True:
     except KeyboardInterrupt:
         print("\nHa cancelado la ejecución")
         break
-#Debemos utilizar esto
-try: 
-    Operación normal
-   ......................
-except:
-    Se produjo una excepción, ejecute este código
-   ......................
-else:
-    Si no hay una ejecución anormal de este código
