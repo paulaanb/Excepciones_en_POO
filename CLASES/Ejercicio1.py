@@ -3,6 +3,9 @@
 #Importamos las librerias que necesitamos
 import os
 import sys
+import Sentry
+
+
 
 #Empezamos con el código principal
 print("Por favor, introduzca la direccion de correo para poder acceder al sitio web deseado: ")
