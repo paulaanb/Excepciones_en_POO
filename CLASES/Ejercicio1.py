@@ -8,6 +8,11 @@ import sys
 print("Por favor, introduzca la direccion de correo para poder acceder al sitio web deseado: ")
 
 #Debemos utilizar esto
-except 
-try
-else
+try 
+    Operación normal
+   ......................
+except:
+    Se produjo una excepción, ejecute este código
+   ......................
+else:
+    Si no hay una ejecución anormal de este código
