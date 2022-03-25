@@ -14,7 +14,12 @@ mail_server = smtplib.SMTP("localhost")
 
 while True:
     try:
-        correo = input("\nPor favor, introduzca la direccion de correo para poder acceder al sitio web deseado: "))
+        correo = "escribeaquitucorreo@mail.me"
+        if "@" in correo:
+	        print("El correo introducido es válido.")
+        else:
+	        print("El correo introducido no es válido.")
+        
         print("\nEl correo introducido es : " ,correo)
         break
     except NameError:
@@ -22,3 +27,4 @@ while True:
     except KeyboardInterrupt:
         print("\nHa cancelado la ejecución")
         break
+
