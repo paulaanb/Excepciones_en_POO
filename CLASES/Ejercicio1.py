@@ -3,3 +3,11 @@
 #Importamos las librerias que necesitamos
 import os
 import sys
+
+#Empezamos con el código principal
+print("Por favor, introduzca la direccion de correo para poder acceder al sitio web deseado: ")
+
+#Debemos utilizar esto
+except 
+try
+else
