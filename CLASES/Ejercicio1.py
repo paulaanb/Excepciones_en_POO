@@ -4,12 +4,24 @@
 import os
 import sys
 import Sentry
+import smtplib
+
 
 
 
 #Empezamos con el código principal
-print("Por favor, introduzca la direccion de correo para poder acceder al sitio web deseado: ")
+mail_server = smtplib.SMTP("localhost")
 
+while True:
+    try:
+        correo = input("\nPor favor, introduzca la direccion de correo para poder acceder al sitio web deseado: "))
+        print("\nEl correo introducido es : " ,correo)
+        break
+    except NameError:
+        print("\nHa introducido una direccion de correo que no es valido.")
+    except KeyboardInterrupt:
+        print("\nHa cancelado la ejecución")
+        break
 #Debemos utilizar esto
 try: 
     Operación normal
