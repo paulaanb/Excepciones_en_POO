@@ -17,14 +17,14 @@ while True:
         if "@" in correo:
 	        print("El correo introducido es válido.")
         else:
-	        print("El correo introducido no es válido.")
+	        print("El correo introducido no es válido, puede ser un ciberataque.")
         
         print("\nEl correo introducido es : " ,correo)
         break
     except NameError:
         print("\nHa introducido una direccion de correo que no es valido.")
     except KeyboardInterrupt:
-        print("\nHa cancelado la ejecución")
+        print("\nSe ha cancelado la ejecución por no reconocer el correo electronico.")
         break
 
 #Definimos los comandos que se admiten en el correo para que sea valido
